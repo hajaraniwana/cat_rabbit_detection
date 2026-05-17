@@ -1,0 +1,180 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===== Virtual Environments =====
+venv/
+env/
+ENV/
+.venv/
+.env/
+virtualenv/
+pipenv/
+poetry.lock
+Pipfile.lock
+
+# ===== Environment Variables / Secrets =====
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
+credentials.json
+config.local.*
+api_keys.txt
+
+# ===== Jupyter Notebooks =====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ===== ML Models & Weights =====
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.pb
+*.tflite
+*.bin
+*.gguf
+*.ggml
+models/
+checkpoints/
+weights/
+saved_models/
+
+# ===== Datasets =====
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.arrow
+*.h5
+*.hdf
+*.npz
+*.npy
+raw_data/
+processed_data/
+# Keep small sample data
+!data/samples/
+!data/README.md
+
+# ===== Experiment Tracking =====
+mlruns/
+mlflow/
+wandb/
+tensorboard/
+runs/
+logs/
+lightning_logs/
+outputs/
+experiments/
+.neptune/
+.aim/
+
+# ===== HuggingFace / Transformers Cache =====
+.cache/
+huggingface/
+transformers_cache/
+~/.cache/huggingface/
+
+# ===== DVC =====
+.dvc/cache
+.dvc/tmp
+.dvcignore
+
+# ===== Large Files =====
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.iso
+
+# ===== IDE / Editors =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+.ropeproject
+*.sublime-project
+*.sublime-workspace
+
+# ===== OS =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===== Testing & Coverage =====
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+nosetests.xml
+
+# ===== Linting / Type Checking =====
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# ===== Documentation =====
+docs/_build/
+site/
+
+# ===== Node (if using JS frontend) =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Misc =====
+tmp/
+temp/
+scratch/
+*.log
+*.bak
